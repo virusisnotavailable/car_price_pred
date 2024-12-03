@@ -89,7 +89,7 @@ if __name__ == "__main__":
             if signal:
                 print(signal)
 
-            # Wait for 5 seconds before checking again
+            # Wait for 1 seconds before checking again
             time.sleep(1)
     except KeyboardInterrupt:
         print("\nNotification system stopped by user.")
